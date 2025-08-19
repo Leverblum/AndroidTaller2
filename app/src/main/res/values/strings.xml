@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Diddiy</string>
+    <string name="nombre">NicolasPerez</string>
+    <string name="Mensaje">Inicia una nueva aventura con Diddiy y descubre una nueva forma de ver el mundo</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="registrate">Registrate</string>
+    <string name="mensaje2">La aventura esta por iniciar, por favor inicia sesion</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="recuperarcontraseña">Recupera Tu Contraseña</string>
+</resources>
