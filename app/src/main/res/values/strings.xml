@@ -9,4 +9,17 @@
     <string name="contraseña">Contraseña</string>
     <string name="ingresar">Ingresar</string>
     <string name="recuperarcontraseña">Recupera Tu Contraseña</string>
+    <string name="completa_datos">Por favor completa tus datos para registrarte</string>
+    <string name="nombres_rg">Nombres</string>
+    <string name="apellidos_rg">Apellidos</string>
+    <string name="correo_electronico_rg">Correo electrónico</string>
+    <string name="telefono_rg">Teléfono</string>
+    <string name="contrasea_rg">Contraseña</string>
+    <string name="repetir_contrasea_rg">Repetir contraseña</string>
+    <string name="terminos_y_condiciones_rg">Acepto los Términos y Condiciones</string>
+    <string name="registrarse_rg">Registrarse</string>
+    <string name="ya_tienes_cuenta_inicia_sesion_rg">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="ingresar_correo">Ingresa tu correo electrónico para recuperar tu contraseña</string>
+    <string name="enviar_solicitud">Enviar solicitud</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
 </resources>

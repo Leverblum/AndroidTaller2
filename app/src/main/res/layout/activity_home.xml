@@ -68,6 +68,7 @@
         android:layout_width="234dp"
         android:layout_height="69dp"
         android:background="@drawable/btn_outlined_red"
+        android:backgroundTint="@null"
         android:fontFamily="@font/montserrat_alternates_bold"
         android:text="@string/comenzar"
         android:textColor="#F13F3B"

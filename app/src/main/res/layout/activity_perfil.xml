@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan">
+
+    <ImageView
+        android:id="@+id/iv_logo_p"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_NombreApp_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/app_name"
+        android:textColor="#1B1A1A"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/iv_logo_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_miPerfil_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi Perfil"
+        android:textSize="20sp"
+        android:textColor="#1B1A1A"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        app:layout_constraintTop_toBottomOf="@id/tv_NombreApp_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/iv_perfil_p"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/edittext_borde"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_miPerfil_rc" />
+
+    <TextView
+        android:id="@+id/et_nombre_p"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre: Juan"
+        android:textSize="16sp"
+        android:textColor="#1B1A1A"
+        android:padding="12dp"
+        android:background="@drawable/edittext_borde"
+        app:layout_constraintTop_toBottomOf="@id/iv_perfil_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/et_apellido_p"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Apellido: Pérez"
+        android:textSize="16sp"
+        android:textColor="#1B1A1A"
+        android:padding="12dp"
+        android:background="@drawable/edittext_borde"
+        app:layout_constraintTop_toBottomOf="@id/et_nombre_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tvCorreoPerfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Correo: juan@example.com"
+        android:textSize="16sp"
+        android:textColor="#1B1A1A"
+        android:padding="12dp"
+        android:background="@drawable/edittext_borde"
+        app:layout_constraintTop_toBottomOf="@id/et_apellido_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/et_telefono_p"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: 123456789"
+        android:textSize="16sp"
+        android:textColor="#1B1A1A"
+        android:padding="12dp"
+        android:background="@drawable/edittext_borde"
+        app:layout_constraintTop_toBottomOf="@id/tvCorreoPerfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_cerrar_p"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_outlined_red"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:padding="12dp"
+        android:text="Cerrar sesión"
+        android:textColor="#F13F3B"
+        app:layout_constraintTop_toBottomOf="@id/et_telefono_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
