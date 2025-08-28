@@ -131,7 +131,7 @@
             android:id="@+id/btn_registrate_rg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
             android:fontFamily="@font/montserrat_alternates_bold"
             android:text="@string/registrate"
             android:textColor="@color/naranja"
