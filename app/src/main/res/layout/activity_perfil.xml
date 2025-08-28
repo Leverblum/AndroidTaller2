@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cyan">
@@ -32,7 +33,7 @@
         android:id="@+id/tv_miPerfil_rc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mi Perfil"
+        android:text="@string/mi_perfil"
         android:textSize="20sp"
         android:textColor="#1B1A1A"
         android:fontFamily="@font/montserrat_alternates_bold"
@@ -57,7 +58,7 @@
         android:id="@+id/et_nombre_p"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Nombre: Juan"
+        android:text="@string/nombre_juan"
         android:textSize="16sp"
         android:textColor="#1B1A1A"
         android:padding="12dp"
@@ -72,7 +73,7 @@
         android:id="@+id/et_apellido_p"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Apellido: Pérez"
+        android:text="@string/apellido_p_rez"
         android:textSize="16sp"
         android:textColor="#1B1A1A"
         android:padding="12dp"
@@ -87,7 +88,7 @@
         android:id="@+id/tvCorreoPerfil"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Correo: juan@example.com"
+        android:text="@string/correo_juan_example_com"
         android:textSize="16sp"
         android:textColor="#1B1A1A"
         android:padding="12dp"
@@ -102,7 +103,7 @@
         android:id="@+id/et_telefono_p"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Teléfono: 123456789"
+        android:text="@string/tel_fono_123456789"
         android:textSize="16sp"
         android:textColor="#1B1A1A"
         android:padding="12dp"
@@ -114,19 +115,21 @@
         android:layout_marginTop="12dp"/>
 
     <Button
-        android:id="@+id/btn_cerrar_p"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/btn_cerrarSesion_p"
+        android:layout_width="299dp"
+        android:layout_height="64dp"
         android:background="@drawable/btn_outlined_red"
         android:fontFamily="@font/montserrat_alternates_bold"
-        android:padding="12dp"
-        android:text="Cerrar sesión"
-        android:textColor="#F13F3B"
-        app:layout_constraintTop_toBottomOf="@id/et_telefono_p"
+        android:text="@string/cerrar_sesi_n"
+        android:textColor="@color/naranja"
+        android:textSize="24sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@+id/et_telefono_p"
+        app:layout_constraintVertical_bias="0.366" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

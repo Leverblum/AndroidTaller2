@@ -22,4 +22,11 @@
     <string name="ingresar_correo">Ingresa tu correo electrónico para recuperar tu contraseña</string>
     <string name="enviar_solicitud">Enviar solicitud</string>
     <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="tel_fono_123456789">Teléfono: 123456789</string>
+    <string name="correo_juan_example_com">Correo: juan@example.com</string>
+    <string name="apellido_p_rez">Apellido: Pérez</string>
+    <string name="nombre_juan">Nombre: Juan</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="ingresa_con_google">Ingresa con Google</string>
 </resources>

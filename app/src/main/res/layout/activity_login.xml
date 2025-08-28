@@ -50,39 +50,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.926" />
 
-    <Button
-        android:id="@+id/btn_ingresar_lg"
-        android:layout_width="234dp"
-        android:layout_height="69dp"
-        android:background="@drawable/btn_outlined_red"
-        android:fontFamily="@font/montserrat_alternates_bold"
-        android:text="@string/ingresar"
-        android:textColor="#F13F3B"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649" />
-
-    <Button
-        android:id="@+id/btn_ingresarGoogle_lg"
-        android:layout_width="333dp"
-        android:layout_height="60dp"
-        android:background="@drawable/btn_outlined_red"
-        android:fontFamily="@font/montserrat_alternates_bold"
-        android:text="Ingresa con Google"
-        android:textAlignment="textEnd"
-        android:textColor="#F13F3B"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.88" />
-
     <TextView
         android:id="@+id/tv_Mensaje_lg"
         android:layout_width="359dp"
@@ -181,16 +148,47 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.508" />
 
-    <ImageView
-        android:id="@+id/iv_google_lg"
-        android:layout_width="38dp"
-        android:layout_height="36dp"
+    <Button
+        android:id="@+id/btn_ingresar_lg"
+        android:layout_width="221dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btn_outlined_red"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/ingresar"
+        android:textColor="@color/naranja"
+        android:textSize="24sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/tv_RecupCont_lg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ingresaConGoogle_lg"
+        android:layout_width="283dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/btn_outlined_red"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/ingresa_con_google"
+        android:textAlignment="textEnd"
+        android:textColor="@color/naranja"
+        android:textSize="16sp"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.869"
         app:srcCompat="@drawable/ic_google" />
 
 
